@@ -13,8 +13,3 @@ function translatePigLatin(str, out) {
 
   document.querySelector('#result').innerHTML = out;
 }
-
-function multi(str) {
-  const arr = str.split(' ');
-  arr.forEach(element => translatePigLatin());
-}
