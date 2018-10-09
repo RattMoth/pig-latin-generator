@@ -38,11 +38,12 @@ h2 {
   margin-top: 3rem;
   margin-bottom: none;
 }
+
 #result {
   text-align: center;
   margin: 0.5rem;
   padding: 0.5rem 5rem;
   font-size: 2em;
-  border: 1px solid black;
+  border: none;
   border-radius: 2px;
 }

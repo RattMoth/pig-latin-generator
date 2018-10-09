@@ -20,4 +20,6 @@ function translatePigLatin(str) {
   const sentenceArr = str.toLowerCase().split(' ');
   const out = sentenceArr.map(word => translateWord(word)).join(' ');
   document.querySelector('#result').innerHTML = out;
+  document.getElementById('result').style.border = '1px solid black';
+  document.querySelector('#title').innerHTML = 'Your Result:';
 }
